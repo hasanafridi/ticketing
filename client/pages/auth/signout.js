@@ -13,6 +13,7 @@ const signOut = () => {
   useEffect(() => {
     doRequest();
   }, []);
+
   return <div>Signing you out...</div>;
 };
 
